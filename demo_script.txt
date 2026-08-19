@@ -1,0 +1,39 @@
+Hello, I’m Sooho Moon from Chung-Ang University, and I’ll be presenting our work, PROBE-Web.
+
+Knowledge graph completion models are widely used in real-world systems, but choosing the right model is not simple. 
+A model may look strong under standard metrics, but still fail on the types of queries that matter most in a specific application. 
+Therefore, practitioners need to understand not only which model performs best overall, but also where each model is strong, where it is weak, 
+and whether it fits their own domain needs.
+
+To address this, a recent work called PROBE introduced an evaluation framework that analyzes KGC models from real-world application perspectives. 
+Building on this idea, we introduce PROBE-Web: an interactive web-based system for exploring, comparing, and evaluating KGC models from multiple perspectives.
+
+This is the initial page of PROBE-Web. Users can choose between two scenarios. 
+The first is a baseline-only comparison, where they can compare precomputed state-of-the-art models across benchmark datasets. 
+The second, and more realistic scenario, is comparing the user’s own model against the baselines. 
+In this demo, I will use this scenario. 
+The user simply uploads the dataset folder and the model result JSON file, selects a color for the model, and runs the comparison.
+
+After the evaluation is finished, PROBE-Web first shows the standard evaluation results. 
+This view is similar to what we usually see in research papers. It visualizes how the user’s model is scored and ranked according to standard metrics.
+
+Next, PROBE-Web provides a multi-perspective evaluator with controllable sliders. 
+By adjusting the sliders, users can change the evaluation perspective and immediately observe how model scores and rankings change. 
+This helps users see that model performance is not fixed, but can vary significantly depending on the application perspective.
+
+However, final scores alone are not enough. 
+Users should also be able to understand why the rankings changed. 
+For this, PROBE-Web provides a rank histogram. 
+For example, we can compare our model with HousE. 
+Our model performs better on high-sharpness cases, while HousE performs better on low-sharpness cases. 
+The histogram shows that our model produces more top-rank predictions, while HousE produces more moderate predictions.
+
+The next feature focuses on popularity-bias robustness. 
+Users can select a target entity from the degree distribution, and PROBE-Web shows the related test query subgraph and the predicted ranks from different models. 
+This allows users to inspect how prediction quality changes depending on the popularity of the target entity.
+
+Finally, PROBE-Web provides a 3D landscape of relative model performance across different alpha and beta values. 
+This gives users an overall view of a model’s relative strengths and weaknesses. 
+Users can also focus only on the evaluation perspective they are interested in, making the analysis more interactive and practical.
+
+This concludes our demo of PROBE-Web. Thank you.

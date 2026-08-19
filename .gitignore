@@ -1,0 +1,16 @@
+# Python bytecode and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local source experiment outputs. The web demo reads the normalized baseline
+# files in n_infos/; these larger, intermediate directories are not deployed.
+/infos/
+/Ours/

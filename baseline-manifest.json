@@ -1,0 +1,191 @@
+{
+  "generatedAt": "2026-05-29T14:02:57.5310736Z",
+  "datasets": {
+    "family": {
+      "ComplEx": [
+        "n_infos/ComplEx/family/ComplEx_family_1.json",
+        "n_infos/ComplEx/family/ComplEx_family_2.json",
+        "n_infos/ComplEx/family/ComplEx_family_3.json"
+      ],
+      "HousE": [
+        "n_infos/HousE/family/HousE_family_1.json",
+        "n_infos/HousE/family/HousE_family_2.json",
+        "n_infos/HousE/family/HousE_family_3.json"
+      ],
+      "pLogicNet": [
+        "n_infos/pLogicNet/family/1(seed)_0(iter).json",
+        "n_infos/pLogicNet/family/2(seed)_0(iter).json",
+        "n_infos/pLogicNet/family/3(seed)_0(iter).json"
+      ],
+      "RNNLogic": [
+        "n_infos/RNNLogic/family/family_1.json",
+        "n_infos/RNNLogic/family/family_2.json",
+        "n_infos/RNNLogic/family/family_3.json"
+      ],
+      "RotatE": [
+        "n_infos/RotatE/family/RotatE_family_1.json",
+        "n_infos/RotatE/family/RotatE_family_2.json",
+        "n_infos/RotatE/family/RotatE_family_3.json"
+      ],
+      "TuckER": [
+        "n_infos/TuckER/family/family_1.json",
+        "n_infos/TuckER/family/family_2.json",
+        "n_infos/TuckER/family/family_3.json"
+      ]
+    },
+    "FB15k237": {
+      "ComplEx": [
+        "n_infos/ComplEx/FB15k237/ComplEx_FB15k-237_1.json",
+        "n_infos/ComplEx/FB15k237/ComplEx_FB15k-237_2.json",
+        "n_infos/ComplEx/FB15k237/ComplEx_FB15k-237_3.json"
+      ],
+      "HousE": [
+        "n_infos/HousE/FB15k237/HousE_FB15k237_1.json",
+        "n_infos/HousE/FB15k237/HousE_FB15k237_2.json",
+        "n_infos/HousE/FB15k237/HousE_FB15k237_3.json"
+      ],
+      "pLogicNet": [
+        "n_infos/pLogicNet/FB15k237/1(seed)_0(iter).json",
+        "n_infos/pLogicNet/FB15k237/2(seed)_0(iter).json",
+        "n_infos/pLogicNet/FB15k237/3(seed)_0(iter).json"
+      ],
+      "RNNLogic": [
+        "n_infos/RNNLogic/FB15k237/FB15k237_54.json",
+        "n_infos/RNNLogic/FB15k237/FB15k237_76.json",
+        "n_infos/RNNLogic/FB15k237/FB15k237_98.json"
+      ],
+      "RotatE": [
+        "n_infos/RotatE/FB15k237/RotatE_FB15k-237_1.json",
+        "n_infos/RotatE/FB15k237/RotatE_FB15k-237_2.json",
+        "n_infos/RotatE/FB15k237/RotatE_FB15k-237_3.json"
+      ],
+      "TuckER": [
+        "n_infos/TuckER/FB15k237/FB15k237_1.json",
+        "n_infos/TuckER/FB15k237/FB15k237_2.json",
+        "n_infos/TuckER/FB15k237/FB15k237_3.json"
+      ]
+    },
+    "kinship": {
+      "ComplEx": [
+        "n_infos/ComplEx/kinship/ComplEx_kinship_1.json",
+        "n_infos/ComplEx/kinship/ComplEx_kinship_2.json",
+        "n_infos/ComplEx/kinship/ComplEx_kinship_3.json"
+      ],
+      "HousE": [
+        "n_infos/HousE/kinship/HousE_kinship_1.json",
+        "n_infos/HousE/kinship/HousE_kinship_2.json",
+        "n_infos/HousE/kinship/HousE_kinship_3.json"
+      ],
+      "pLogicNet": [
+        "n_infos/pLogicNet/kinship/1(seed)_0(iter).json",
+        "n_infos/pLogicNet/kinship/2(seed)_0(iter).json",
+        "n_infos/pLogicNet/kinship/3(seed)_1(iter).json"
+      ],
+      "RNNLogic": [
+        "n_infos/RNNLogic/kinship/kinship_1.json",
+        "n_infos/RNNLogic/kinship/kinship_2.json",
+        "n_infos/RNNLogic/kinship/kinship_3.json"
+      ],
+      "RotatE": [
+        "n_infos/RotatE/kinship/RotatE_kinship_1.json",
+        "n_infos/RotatE/kinship/RotatE_kinship_2.json",
+        "n_infos/RotatE/kinship/RotatE_kinship_3.json"
+      ],
+      "TuckER": [
+        "n_infos/TuckER/kinship/kinship_1.json",
+        "n_infos/TuckER/kinship/kinship_2.json",
+        "n_infos/TuckER/kinship/kinship_3.json"
+      ]
+    },
+    "umls": {
+      "ComplEx": [
+        "n_infos/ComplEx/umls/ComplEx_umls_1.json",
+        "n_infos/ComplEx/umls/ComplEx_umls_2.json",
+        "n_infos/ComplEx/umls/ComplEx_umls_3.json"
+      ],
+      "HousE": [
+        "n_infos/HousE/umls/HousE_umls_1.json",
+        "n_infos/HousE/umls/HousE_umls_2.json",
+        "n_infos/HousE/umls/HousE_umls_3.json"
+      ],
+      "pLogicNet": [
+        "n_infos/pLogicNet/umls/1(seed)_0(iter).json",
+        "n_infos/pLogicNet/umls/2(seed)_0(iter).json",
+        "n_infos/pLogicNet/umls/3(seed)_0(iter).json"
+      ],
+      "RNNLogic": [
+        "n_infos/RNNLogic/umls/umls_1.json",
+        "n_infos/RNNLogic/umls/umls_2.json",
+        "n_infos/RNNLogic/umls/umls_3.json"
+      ],
+      "RotatE": [
+        "n_infos/RotatE/umls/RotatE_umls_1.json",
+        "n_infos/RotatE/umls/RotatE_umls_2.json",
+        "n_infos/RotatE/umls/RotatE_umls_3.json"
+      ],
+      "TuckER": [
+        "n_infos/TuckER/umls/umls_1.json",
+        "n_infos/TuckER/umls/umls_2.json",
+        "n_infos/TuckER/umls/umls_3.json"
+      ]
+    },
+    "wn18rr": {
+      "ComplEx": [
+        "n_infos/ComplEx/wn18rr/ComplEx_wn18rr_1.json",
+        "n_infos/ComplEx/wn18rr/ComplEx_wn18rr_2.json",
+        "n_infos/ComplEx/wn18rr/ComplEx_wn18rr_3.json"
+      ],
+      "HousE": [
+        "n_infos/HousE/wn18rr/HousE_wn18rr_1.json",
+        "n_infos/HousE/wn18rr/HousE_wn18rr_2.json",
+        "n_infos/HousE/wn18rr/HousE_wn18rr_3.json"
+      ],
+      "pLogicNet": [
+        "n_infos/pLogicNet/wn18rr/1(seed)_2(iter).json",
+        "n_infos/pLogicNet/wn18rr/2(seed)_2(iter).json",
+        "n_infos/pLogicNet/wn18rr/3(seed)_2(iter).json"
+      ],
+      "RNNLogic": [
+        "n_infos/RNNLogic/wn18rr/wn18rr_54.json",
+        "n_infos/RNNLogic/wn18rr/wn18rr_76.json",
+        "n_infos/RNNLogic/wn18rr/wn18rr_98.json"
+      ],
+      "RotatE": [
+        "n_infos/RotatE/wn18rr/RotatE_wn18rr_1.json",
+        "n_infos/RotatE/wn18rr/RotatE_wn18rr_2.json",
+        "n_infos/RotatE/wn18rr/RotatE_wn18rr_3.json"
+      ],
+      "TuckER": [
+        "n_infos/TuckER/wn18rr/wn18rr_1.json",
+        "n_infos/TuckER/wn18rr/wn18rr_2.json",
+        "n_infos/TuckER/wn18rr/wn18rr_3.json"
+      ]
+    },
+    "YAGO3-10": {
+      "ComplEx": [
+        "n_infos/ComplEx/YAGO3-10/ComplEx_YAGO3-10_2.json",
+        "n_infos/ComplEx/YAGO3-10/ComplEx_YAGO3-10_3.json",
+        "n_infos/ComplEx/YAGO3-10/ComplEx_YAGO3-10_5.json"
+      ],
+      "HousE": [
+        "n_infos/HousE/YAGO3-10/HousE_YAGO3-10_1.json",
+        "n_infos/HousE/YAGO3-10/HousE_YAGO3-10_2.json",
+        "n_infos/HousE/YAGO3-10/HousE_YAGO3-10_3.json"
+      ],
+      "pLogicNet": [
+        "n_infos/pLogicNet/YAGO3-10/1(seed)_0(iter).json",
+        "n_infos/pLogicNet/YAGO3-10/2(seed)_2(iter).json",
+        "n_infos/pLogicNet/YAGO3-10/3(seed)_1(iter).json"
+      ],
+      "RotatE": [
+        "n_infos/RotatE/YAGO3-10/RotatE_YAGO3-10_1.json",
+        "n_infos/RotatE/YAGO3-10/RotatE_YAGO3-10_2.json",
+        "n_infos/RotatE/YAGO3-10/RotatE_YAGO3-10_3.json"
+      ],
+      "TuckER": [
+        "n_infos/TuckER/YAGO3-10/YAGO3-10_1.json",
+        "n_infos/TuckER/YAGO3-10/YAGO3-10_2.json"
+      ]
+    }
+  }
+}

@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Interactive evaluation and comparison of knowledge graph completion models with PROBE." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>PROBEWeb — KGC Evaluation Explorer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <noscript>PROBEWeb requires JavaScript to load datasets and calculate metrics.</noscript>
+    <main class="page">
+      <section class="workspace">
+        <header class="topbar">
+          <div>
+            <h1>PROBE<sup style="font-size:0.7em;">Web</sup></h1>
+            <p>Evaluate KGC models with PROBE.</p>
+          </div>
+          <button id="runButton" type="button">Run comparison</button>
+        </header>
+
+        <section class="panel">
+          <h2>Inputs</h2>
+          <div class="grid datasetGrid">
+            <label class="datasetNameField">
+              Dataset name
+              <input id="datasetName" type="text" placeholder="FB15k237" />
+            </label>
+            <label class="fileDrop datasetFileField">
+              Entities
+              <input id="datasetEntitiesFile" type="file" accept=".dict,text/plain" />
+              <span>Upload entities.dict</span>
+            </label>
+            <label class="fileDrop datasetFileField">
+              Relations
+              <input id="datasetRelationsFile" type="file" accept=".dict,text/plain" />
+              <span>Upload relations.dict</span>
+            </label>
+            <label class="fileDrop datasetFileField">
+              Training triples
+              <input id="datasetTrainFile" type="file" accept=".txt,text/plain" />
+              <span>Upload train.txt</span>
+            </label>
+          </div>
+
+          <div class="userModelsBlock">
+            <div class="userModelsHead">
+              <h3>User models</h3>
+              <button id="addModelButton" class="secondary" type="button">Add model</button>
+            </div>
+            <div id="userModels" class="userModels"></div>
+          </div>
+
+          <div class="options">
+            <label class="check">
+              <input id="useBaselines" type="checkbox" checked />
+              Compare baselines
+            </label>
+            <label class="check">
+              <input id="baselineOnly" type="checkbox" />
+              Baselines only
+            </label>
+          </div>
+        </section>
+
+        <section class="panel muted" id="statusPanel">
+          <h2>Status</h2>
+          <pre id="status">Waiting for uploads.</pre>
+        </section>
+
+        <section class="results" id="results" hidden>
+          <div class="resultsHead">
+            <h2>Results</h2>
+            <div class="actions">
+              <button id="downloadJson" type="button">Download JSON</button>
+              <button id="downloadCsv" type="button">Download CSV</button>
+              <button id="downloadSvgs" type="button">Download SVGs</button>
+              <button id="printPdf" type="button">Save PDF</button>
+            </div>
+          </div>
+          <div id="summary"></div>
+          <div id="plots"></div>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
