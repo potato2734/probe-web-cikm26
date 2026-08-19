@@ -1,5 +1,7 @@
 # PROBE<sup>Web</sup>
 
+![](./figs/fig3-demo.svg)
+
 An interactive, browser-based system for probing evaluation landscapes of knowledge graph completion (KGC) models. PROBE<sup>Web</sup> accompanies the CIKM 2026 demo paper, [*PROBE<sup>Web</sup>: An Interactive System for Probing Evaluation Landscapes of Knowledge Graph Completion Models*](https://arxiv.org/pdf/2606.08926).
 
 The interface compares uploaded KGC predictions with bundled baselines, reports conventional metrics alongside PROBE scores, and supports interactive analysis of predictive sharpness and popularity-bias robustness. All scoring runs locally in the browser; uploaded files are not sent to a server.
